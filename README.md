@@ -16,4 +16,11 @@ and flashing as : `st-flash write stm32f4xx-dac.bin 0x8000000`
 
     make clean    
     make flash
-    
+
+# Notes on power
+Needs to be powered using miniUSB (CN1), or connecting pin PA9 to 5V like picture below.
+
+<img src ="https://github.com/aniljava/stm32f4xx-dac/blob/master/res/front.jpg">
+
+<img src ="https://github.com/aniljava/stm32f4xx-dac/blob/master/res/rear.jpg">
+PIN PA9 -> PIN 5V
